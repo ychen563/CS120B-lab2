@@ -18,6 +18,7 @@ int main(void) {
     unsigned char tmpA = 0x00; // Temporary variable to hold the value of A
     /* Insert your solution below */
     /* Test pull*/
+    /* Test local machine*/
     while (1) {
         unsigned char cntavail = 0x00;
         unsigned char tmpC = 0x00;
