@@ -17,6 +17,7 @@ int main(void) {
     DDRC = 0xFF; PORTC = 0x00; // Configure port C's 8 pins as outputs, initialize to 0s
     unsigned char tmpA = 0x00; // Temporary variable to hold the value of A
     /* Insert your solution below */
+    /* Test pull*/
     while (1) {
         unsigned char cntavail = 0x00;
         unsigned char tmpC = 0x00;
